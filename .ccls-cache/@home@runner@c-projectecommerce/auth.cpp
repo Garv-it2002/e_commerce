@@ -6,7 +6,36 @@ using namespace std;
 void login();
 void registr();
 void forgot();
+//Code block to choose the options just after login
+class choose_option{
+    public:
+        void main_screen(){
+            system("cls");
+            int ch;
+            cout<<"\n=======================Deepak ki Dukaan===============\n";
+            cout<<"Please choose any one from below\n";
+            cout<<"1.Buy product\n";
+            cout<<"2.View cart\n";
+            cout<<"3.Exit\n";
+            cout<<"Please enter your choice: ";
+            cin>>ch;
 
+            switch (ch)
+            {
+            case 1: cout<<"Buy\n";
+                break;
+            case 2: cout<<"View\n";
+                break;
+            case 3:system("cls");
+            cout<<"Thanks for using the application\n"; 
+            exit(0);
+                break;
+            default: cout<<"Please enter valid value\n";
+                break;
+            }
+        }
+};
+//........................................................................................
 main()
 {
     int choice;
@@ -25,7 +54,8 @@ main()
         break;
         case 3: forgot();
         break;
-        case 4: cout<<"Thanks for using the application";
+        case 4: system("cls");
+        cout<<"Thanks for using the application";
         exit(0);
         break;
         default: cout<<"Please enter valid choice\n";
@@ -64,16 +94,13 @@ void login(){
     }
     input.close();
     if(exist ==1){
-        cout<<"Welcome to the website";
-        //cin.get();
-        //cin.get();
-        main();
+        choose_option *maindis = new choose_option();
+        maindis->main_screen();
     }
     else
     {
         cout<<"Invalid username or password\n";
-        //cin.get();
-        //cin.get();
+        system("cls");
         main();
     }
 }
@@ -110,15 +137,11 @@ void forgot(){
                 cout<<"Your account has been found\n";
                 cout<<"Your password is "<<sp;
                 cout<<"\n";
-                //cin.get();
-                //cin.get();
                 main();
             }
             else
             {
                 cout<<"Account does not exist with current user name\n";
-                //cin.get();
-                //cin.get();
                 main();
             }
             break;
@@ -141,15 +164,11 @@ void forgot(){
                 cout<<"Your account has been found\n";
                 cout<<"Your userID is "<<su2;
                 cout<<"\n";
-                //cin.get();
-                //cin.get();
                 main();
             }
             else
             {
                 cout<<"Account does not exist with current password\n";
-                //cin.get();
-                //cin.get();
                 main();
             }
             break;
@@ -159,8 +178,6 @@ void forgot(){
             break;
 
         default: cout<<"Please choose the right option";
-        //cin.get();
-        //cin.get();
         forgot();
     }
 }
