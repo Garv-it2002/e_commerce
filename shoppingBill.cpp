@@ -5,52 +5,54 @@ int main()
 {
     int returTotalBill(void);
     int totalBill=returTotalBill();
-    cout<<"Your total bill amount is"<<totalBill;
-    cout<<"Thank You for your Order"<<endl;
+    cout<<"\nYour total bill amount is\n"<<totalBill;
+    cout<<"\nThank You for your Order\n"<<endl;
     
 }
 
 int returTotalBill()
 {
-    char c;
-    char item;
+    int c;
+    int item;
     char electronicDevice;
     char books;
     char sports;
     char healthcare;
     int billAmount=0;
     char selectAgain;
-    cout<<"------------Welcome to Deepak ki Dukaaaaaaaaaaaaaaaaaaaaaaaan -------------"<<endl;
-    cout<<"---------Please follow below instruction-------------"<<endl;
-    cout<<"---------Step 1: Please press  i or I to go ahead for shopping your favourite items-------------"<<endl;
-    cout<<"---------Step 2: Please press a or A to to shop for Electronics items-------------"<<endl;
-    cout<<"---------Step 3: Please press b or B to shop for Books items-------------"<<endl;
-    cout<<"---------Step 4: Please press c C to shop for Sports items-------------"<<endl;
-    cout<<"---------Step 5: Please press d or D to shop for Healthcare items-------------"<<endl;
-    cout<<"------------------Go Ahead Your Favourite Items are still Waiting for You---------------"<<endl;
+    cout<<"============Welcome to Deepak ki Dukaan=========="<<endl;
+    cout<<"Please press 1 to go ahead for shopping your favourite items"<<endl;
     start:
     cin>>c;
-
-    if(c=='i'||c=='I')
+    if(c==1)
     {
         items:
-        cout<<"Please select ypur Choice"<<endl;
-        cout<<"(a)Electronics           (b)Books                (c)Sports           (d)Healthcare"<<endl;
+        cout<<"Please select your Choice"<<endl;
+        cout<<"1.Electronics\n2.Books\n3.Sports\n4.Healthcare"<<endl;
         cin>>item;
-        if(item=='a'||item=='A')
+        if(item==1)
         {
              electronicdeviceList:
             cout<<"Please select 1,2,3,4,5,6,7,8,9 as per your choice"<<endl;
-            cout<<"(1)Dell XPS 13           :   Price:$-999.99\n" <<endl;
-            cout<<"(2)Macbook Pro           :   Price:$-1,299.99\n" <<endl;
-            cout<<"(3)HP Spectre x360       :   Price:$-1,099.99\n" <<endl;
-            cout<<"(4)Lenovo ThinkPad       :   Price:$-1,001.99\n" <<endl;
-            cout<<"(5)Asus ZenBook          :   Price:$-899.99\n" <<endl;
-            cout<<"(6Samsung Galaxy S21     :   Price:$-859.99\n" <<endl;
-            cout<<"(7)iPhone 12             :   Price:$-909.99\n" <<endl;
-            cout<<"(8)Sony Bravia TV        :   Price:$-939.99\n" <<endl;
-            cout<<"(9)Bose QuietComfort 35  :   Price:$-959.99\n" <<endl;
-            //cout<<"(10)Nintendo Switch    :   Price:$-999.99\n" <<endl;
+            cout<<"======================================================\n";
+            cout<<"1.Dell XPS 13           :   Price:$-999.99\n";
+            cout<<"------------------------------------------------------\n";
+            cout<<"2.Macbook Pro           :   Price:$-1,299.99\n";
+            cout<<"------------------------------------------------------\n";
+            cout<<"3.HP Spectre x360       :   Price:$-1,099.99\n";
+            cout<<"------------------------------------------------------\n";
+            cout<<"4.Lenovo ThinkPad       :   Price:$-1,001.99\n";
+            cout<<"------------------------------------------------------\n";
+            cout<<"5.Asus ZenBook          :   Price:$-899.99\n";
+            cout<<"------------------------------------------------------\n";
+            cout<<"6.Samsung Galaxy S21    :   Price:$-859.99\n";
+            cout<<"------------------------------------------------------\n";
+            cout<<"7.iPhone 12             :   Price:$-909.99\n";
+            cout<<"------------------------------------------------------\n";
+            cout<<"8.Sony Bravia TV        :   Price:$-939.99\n";
+            cout<<"------------------------------------------------------\n";
+            cout<<"9.Bose QuietComfort 35  :   Price:$-959.99\n";
+            cout<<"======================================================\n";
             cin>>electronicDevice;
             if(electronicDevice=='1')
             {
@@ -88,13 +90,9 @@ int returTotalBill()
             {
                 billAmount=billAmount+959.99;
             }
-            /*else if(electronicDevice=='10')
-            {
-                billAmount=billAmount+Rs999.99;
-            }*/
             else
             {
-                cout<<"You have entered wrong value,please press correct value!!!!!" <<endl;
+                cout<<"You have entered wrong value,please press correct value" <<endl;
                 goto electronicdeviceList;
             }
             cout<<"Add more items,y or no?"<<endl;
@@ -108,7 +106,7 @@ int returTotalBill()
                 return billAmount;
             }
         }
-        else if(item=='b'||item=='B')
+        else if(item==2)
         {
         
              booksList:
@@ -122,7 +120,6 @@ int returTotalBill()
             cout<<"(7)                                 :   Price:$9\n" <<endl;
             cout<<"(8)                                 :   Price:$11\n" <<endl;
             cout<<"(9)                                 :   Price:$3.5\n" <<endl;
-            //cout<<"(10)Nintendo Switch               :   Price:$5.5\n" <<endl;
             cin>>books;
             if(books=='1')
             {
@@ -160,10 +157,6 @@ int returTotalBill()
             {
                 billAmount=billAmount+3.5;
             }
-            /*else if(electronicDevice=='10')
-            {
-                billAmount=billAmount+999.99;
-            }*/
             else
             {
                 cout<<"You have entered wrong value,please press correct value!!!!!" <<endl;
@@ -181,7 +174,7 @@ int returTotalBill()
             }
             
         }
-        else if(item=='c'||item=='C')
+        else if(item==3)
         {
         
             sportsList:
@@ -195,7 +188,6 @@ int returTotalBill()
             cout<<"(7)                                  :   Price:$10\n" <<endl;
             cout<<"(8)                                  :   Price:$80\n" <<endl;
             cout<<"(9)                                  :   Price:$75\n" <<endl;
-            //cout<<"(10)Nintendo Switch                :   Price:$15\n" <<endl;
             cin>>sports;
             if(sports=='1')
             {
@@ -233,10 +225,6 @@ int returTotalBill()
             {
                 billAmount=billAmount+75;
             }
-            /*else if(electronicDevice=='10')
-            {
-                billAmount=billAmount+15;
-            }*/
             else
             {
                 cout<<"You have entered wrong value,please press correct value!!!!!" <<endl;
@@ -254,7 +242,7 @@ int returTotalBill()
             }
             
         }
-        else if(item=='d'||item=='D')
+        else if(item==4)
         {
         
             healthcareList:
@@ -268,7 +256,6 @@ int returTotalBill()
             cout<<"(7)                                   :   Price:$175\n" <<endl;
             cout<<"(8)                                   :   Price:$400\n" <<endl;
             cout<<"(9)                                   :   Price:$70\n" <<endl;
-            //cout<<"(10)Nintendo Switch                 :   Price:$15\n" <<endl;
             cin>>healthcare;
             if(healthcare=='1')
             {
@@ -306,16 +293,12 @@ int returTotalBill()
             {
                 billAmount=billAmount+70;
             }
-            /*else if(electronicDevice=='10')
-            {
-                billAmount=billAmount+25;
-            }*/
             else
             {
                 cout<<"You have entered wrong value,please press correct value!!!!!" <<endl;
                 goto healthcareList;
             }
-            cout<<"Add more items,y or no?"<<endl;
+            cout<<"Press y to add more items or n to end?"<<endl;
             cin>>selectAgain;
             if(selectAgain=='y')
             {
@@ -329,21 +312,16 @@ int returTotalBill()
         }
         else
         {
-            cout<<"We Appreciate your Excitation for shopping,Unfortunately Entered WRONG INPUT,Please Try AGAIN!!!!!" <<endl;
+            cout<<"We Appreciate your Excitation for shopping,Unfortunately Entered WRONG INPUT,Please Try AGAIN!" <<endl;
             goto items;
         }
         
     }
     else
     {
-       cout<<"You have entered wrong value,please press i or I!!!!!" <<endl;
+       cout<<"You have entered wrong value,please press 1" <<endl;
        goto start;
-    }
-    
-    
-    
-    
+    } 
     return billAmount;
     
 }
-
