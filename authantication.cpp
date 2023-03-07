@@ -89,7 +89,7 @@ public:
     cin >> c;
     if (c == 1) {
     items:
-      cout << "Please select ypur Choice" << endl;
+      cout << "Please select your Choice" << endl;
       cout << "1.Electronics\n2.Books\n3.Sports\n4.Healthcare" << endl;
       cin >> item;
       if (item == 1) {
@@ -119,48 +119,48 @@ public:
         if (electronicDevice == '1') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 999.99);
+          cart.add_item("Dell XPS 13", (qty * 999.99), qty);
         } else if (electronicDevice == '2') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 1,299.99);
+          cart.add_item("Macbook Pro", (qty * 1,299.99), qty);
         } else if (electronicDevice == '3') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty *1,099.99);
+          cart.add_item("HP Spectre x360 ", (qty * 1,099.99), qty);
         } else if (electronicDevice == '4') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 1,001.99);
+          cart.add_item("Lenovo ThinkPad", (qty * 1,001.99), qty);
         } else if (electronicDevice == '5') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 899.99);
+          cart.add_item("Asus ZenBook", (qty * 899.99), qty);
         } else if (electronicDevice == '6') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 859.99);
+          cart.add_item("Samsung Galaxy S21", (qty * 859.99, qty);
         } else if (electronicDevice == '7') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 909.99);
+          cart.add_item("iPhone 12", (qty * 909.99), qty);
         } else if (electronicDevice == '8') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 939.99);
+          cart.add_item("Sony Bravia TV", (qty * 939.99), qty);
         } else if (electronicDevice == '9') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 959.99);
+          cart.add_item("Bose QuietComfort 35", (qty * 959.99), qty);
         } else {
           cout << "You have entered wrong value,please press correct value"
                << endl;
@@ -200,48 +200,48 @@ public:
         if (books == '1') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 3);
+          cart.add_item("Tum Pahle Kyu Nhi Aaye", (qty * 3), qty);
         } else if (books == '2') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 5);
+          cart.add_item("Harry Potter", (qty * 5), qty);
         } else if (books == '3') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 2);
+          cart.add_item("The adventure of Tin Tin", (qty * 2), qty);
         } else if (books == '4') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 4);
+          cart.add_item("Data Structures and algorithms", (qty * 4), qty);
         } else if (books == '5') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 4.5);
+          cart.add_item("Constitution of India", (qty * 4.5), qty);
         } else if (books == '6') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 7);
+          cart.add_item("The Hunger games ", (qty * 7), qty);
         } else if (books == '7') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 9);
+          cart.add_item("Marvel Legacy", (qty * 9), qty);
         } else if (books == '8') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 11);
+          cart.add_item("The great legacy of India", (qty * 11), qty);
         } else if (books == '9') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 3.5);
+          cart.add_item("Marketing stratigies", (qty * 3.5), qty);
         } else {
           cout << "You have entered wrong value,please press correct value!!!!!"
                << endl;
@@ -288,42 +288,42 @@ public:
           cout << "Enter Quantity: ";
           cin >> qty;
           billAmount = billAmount + (qty * 35);
-          cart.add_item("Football", (qty * 50), qty);
+          cart.add_item("Cricket Bat", (qty * 35), qty);
         } else if (sports == '3') {
           cout << "Enter Quantity: ";
           cin >> qty;
           billAmount = billAmount + (qty * 100);
-          cart.add_item("Football", (qty * 50), qty);
+          cart.add_item("Golf Club", (qty * 100), qty);
         } else if (sports == '4') {
           cout << "Enter Quantity: ";
           cin >> qty;
           billAmount = billAmount + (qty * 55);
-          cart.add_item("Football", (qty * 50), qty);
+          cart.add_item("Table Tennis kit", (qty * 55), qty);
         } else if (sports == '5') {
           cout << "Enter Quantity: ";
           cin >> qty;
           billAmount = billAmount + (qty * 95);
-          cart.add_item("Football", (qty * 50), qty);
+          cart.add_item("Cosco Badminton", (qty * 95), qty);
         } else if (sports == '6') {
           cout << "Enter Quantity: ";
           cin >> qty;
           billAmount = billAmount + (qty * 45);
-          cart.add_item("Football", (qty * 50), qty);
+          cart.add_item("Shuttle pack", (qty * 45), qty);
         } else if (sports == '7') {
           cout << "Enter Quantity: ";
           cin >> qty;
           billAmount = billAmount + (qty * 10);
-          cart.add_item("Football", (qty * 50), qty);
+          cart.add_item("Basket Ball", (qty * 10), qty);
         } else if (sports == '8') {
           cout << "Enter Quantity: ";
           cin >> qty;
           billAmount = billAmount + (qty * 80);
-          cart.add_item("Football", (qty * 50), qty);
+          cart.add_item("Sports Shoes", (qty * 80), qty);
         } else if (sports == '9') {
           cout << "Enter Quantity: ";
           cin >> qty;
           billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          cart.add_item("Cricket Kit", (qty * 75), qty);
         } else {
           cout << "You have entered wrong value,please press correct value!!!!!"
                << endl;
@@ -342,70 +342,70 @@ public:
       healthcareList:
         cout << "Please select 1,2,3,4,5 as per your choice" << endl;
         cout << "======================================================\n";
-        cout << "1.                               :   Price:$100\n" << endl;
+        cout << "1.Thermometer                              :   Price:$100\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "2.                               :   Price:$150\n" << endl;
+        cout << "2.Stethoscope                              :   Price:$150\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "3.                               :   Price:$115\n" << endl;
+        cout << "3.Blood pressure monitor                   :   Price:$115\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "4.                               :   Price:$200\n" << endl;
+        cout << "4.Pulse Oximeter                           :   Price:$200\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "5.                               :   Price:$80\n" << endl;
+        cout << "5.Glucometer                               :   Price:$80\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "6.                               :   Price:$130\n" << endl;
+        cout << "6.Antihistamines                           :   Price:$130\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "7.                               :   Price:$175\n" << endl;
+        cout << "7.Alcohol swabs                            :   Price:$175\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "8.                               :   Price:$400\n" << endl;
+        cout << "8.Nebulizer                                :   Price:$400\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "9.                               :   Price:$70\n" << endl;
+        cout << "9.First-aid kit                            :   Price:$70\n" << endl;
         cout << "======================================================\n";
         cin >> healthcare;
         if (healthcare == '1') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 100);
+          cart.add_item("Thermometer", (qty * 100), qty);
         } else if (healthcare == '2') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 150);
+          cart.add_item("Stethoscope", (qty * 150), qty);
         } else if (healthcare == '3') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 115);
+          cart.add_item("Blood pressure monitor", (qty * 115), qty);
         } else if (healthcare == '4') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 200);
+          cart.add_item("Pulse Oximeter", (qty * 200), qty);
         } else if (healthcare == '5') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 80);
+          cart.add_item("Glucometer", (qty * 80), qty);
         } else if (healthcare == '6') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 130);
+          cart.add_item("Antihistamines", (qty * 130), qty);
         } else if (healthcare == '7') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 175);
+          cart.add_item("Alcohol swabs", (qty * 175), qty);
         } else if (healthcare == '8') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 400);
+          cart.add_item("Nebulizer", (qty * 400), qty);
         } else if (healthcare == '9') {
           cout << "Enter Quantity: ";
           cin >> qty;
-          billAmount = billAmount + (qty * 75);
-          cart.add_item("Football", (qty * 50), qty);
+          billAmount = billAmount + (qty * 70);
+          cart.add_item("First-aid kit", (qty * 70), qty);
         } else {
           cout << "You have entered wrong value,please press correct value!!!!!"
                << endl;
