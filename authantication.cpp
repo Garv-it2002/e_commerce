@@ -342,23 +342,23 @@ public:
       healthcareList:
         cout << "Please select 1,2,3,4,5 as per your choice" << endl;
         cout << "======================================================\n";
-        cout << "1.                               :   Price:$100\n" << endl;
+        cout << "1.Thermometer                    :   Price:$100\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "2.                               :   Price:$150\n" << endl;
+        cout << "2.Stethoscope                    :   Price:$150\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "3.                               :   Price:$115\n" << endl;
+        cout << "3.Blood pressure monitor         :   Price:$115\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "4.                               :   Price:$200\n" << endl;
+        cout << "4.pulse oximeter                 :   Price:$200\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "5.                               :   Price:$80\n" << endl;
+        cout << "5.Glucometer                     :   Price:$80\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "6.                               :   Price:$130\n" << endl;
+        cout << "6.Antihistamines                 :   Price:$130\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "7.                               :   Price:$175\n" << endl;
+        cout << "7.Alcohol swabs                  :   Price:$175\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "8.                               :   Price:$400\n" << endl;
+        cout << "8.Nebulizer                      :   Price:$400\n" << endl;
         cout << "------------------------------------------------------\n";
-        cout << "9.                               :   Price:$70\n" << endl;
+        cout << "9.First-aid kit                  :   Price:$70\n" << endl;
         cout << "======================================================\n";
         cin >> healthcare;
         if (healthcare == '1') {
